@@ -8,7 +8,9 @@ const NavBar = () => {
         </div>
         <div className={styles.links}>
             <img src="/contacto.png" className={styles.contacto}></img>
-            <a className={styles.link}> Registro</a>
+            <Link href='/signup' className={styles.link}>
+                Registro        
+            </Link>
             <Link href='/login' className={styles.link}>
                 Iniciar Sesion            
             </Link>
