@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './NavBar.module.css'
 const NavBar = () => {
  return (
@@ -8,7 +9,9 @@ const NavBar = () => {
         <div className={styles.links}>
             <img src="/contacto.png" className={styles.contacto}></img>
             <a className={styles.link}> Registro</a>
-            <a className={styles.link}> Iniciar Sesion</a>
+            <Link href='/login' className={styles.link}>
+                Iniciar Sesion            
+            </Link>
         </div>
     </nav>
  );
