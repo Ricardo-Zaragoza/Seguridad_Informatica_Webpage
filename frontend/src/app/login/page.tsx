@@ -28,14 +28,14 @@ export default function LoginPage() {
   }
  
   return (
-    <div>
+    <div className="login-page">
     <NavBar></NavBar>
     <div className="profile-box" />
     <form className="login-form">
         <input 
           type="text" 
-          name="username" 
-          placeholder="User name" 
+          name="email" 
+          placeholder="email" 
           required 
           className="login-input"
         />
