@@ -1,0 +1,70 @@
+/* [project]/src/app/login/login.css [app-client] (css) */
+.login-page {
+  background: #2e88bb linear-gradient(135deg, #72b9e8, #2e88bb);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-box {
+  background-image: url("/login_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+  margin-top: 200px;
+  margin-left: 47%;
+}
+
+.login-container {
+  text-align: center;
+  background-color: rgba(244, 240, 240, .92);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(236, 238, 238, 0);
+}
+
+.login-form {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.login-input {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 260px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.login-button {
+  color: #fff;
+  background-color: #0078d7;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #005fa3;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=src_app_login_login_css_bad6b30c._.single.css.map*/

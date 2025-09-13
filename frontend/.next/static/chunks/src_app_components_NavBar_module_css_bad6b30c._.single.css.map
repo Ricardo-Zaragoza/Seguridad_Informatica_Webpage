@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/NavBar.module.css"],"sourcesContent":["/* css para la barra de navehacion  */\r\n.NavBar{\r\n    display: flex;\r\n    padding: 10px 20px;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    padding: auto;\r\n    background-color: #86c3e9;\r\n    box-shadow: 0 4px 8px rgba(4, 42, 63, 0.1);\r\n}\r\n\r\n.logo img{\r\n    height: 100px;\r\n    width: 100px;\r\n    margin-left: 40px;\r\n}\r\n\r\n.link{\r\n    color:blue;\r\n}\r\n\r\n.links{\r\n    display: flex;\r\n    gap: 20px;\r\n    margin-right: 40px;\r\n}\r\n\r\n.contacto{\r\n    width: 40px;\r\n    height: 40px;\r\n    object-fit: contain;\r\n}"],"names":[],"mappings":"AACA;;;;;;;;;AAUA;;;;;;AAMA;;;;AAIA;;;;;;AAMA"}}]
+}

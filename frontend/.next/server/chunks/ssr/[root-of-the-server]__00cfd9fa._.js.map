@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/misael/Desktop/SITIO/frontend/src/app/signup/page.tsx"],"sourcesContent":["import NavBar from \"../../app/components/NavBar\"\r\nexport default function SignUp(){\r\n    return(\r\n        <div>\r\n            <h1> pagina signup</h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGhB","debugId":null}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/misael/Desktop/SITIO/frontend/src/app/page.tsx"],"sourcesContent":["import NavBar from \"./components/NavBar\"\r\nexport default function Home() {\r\n  return (\r\n    <div>\r\n    <h1 className=\"text-green\">Frutiger Aero</h1>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AACe,SAAS;IACtB,qBACE,8OAAC;kBACD,cAAA,8OAAC;YAAG,WAAU;sBAAa;;;;;;;;;;;AAG/B","debugId":null}}]
+}

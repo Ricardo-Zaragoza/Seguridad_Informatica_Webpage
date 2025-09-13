@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/misael/Desktop/SITIO/frontend/src/app/components/NavBar.tsx"],"sourcesContent":["import styles from './NavBar.module.css'\r\nconst NavBar = () => {\r\n return (\r\n    <nav className={'styles.NavBar'}>\r\n        <div className={'styles.logo'}>\r\n            <img src=\"/logo.jpg\"></img>\r\n        </div>\r\n        <div>\r\n            <a> Registro</a>\r\n        </div>\r\n        <div>\r\n            <a className={'styles.link'}> Iniciar Sesion</a>\r\n        </div>\r\n    </nav>\r\n );\r\n};\r\nexport default NavBar;"],"names":[],"mappings":";;;;;;AACA,MAAM,SAAS;IACd,qBACG,8OAAC;QAAI,WAAW;;0BACZ,8OAAC;gBAAI,WAAW;0BACZ,cAAA,8OAAC;oBAAI,KAAI;;;;;;;;;;;0BAEb,8OAAC;0BACG,cAAA,8OAAC;8BAAE;;;;;;;;;;;0BAEP,8OAAC;0BACG,cAAA,8OAAC;oBAAE,WAAW;8BAAe;;;;;;;;;;;;;;;;;AAIzC;uCACe","debugId":null}},
+    {"offset": {"line": 78, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/misael/Desktop/SITIO/frontend/src/app/page.tsx"],"sourcesContent":["import NavBar from \"./components/NavBar\"\r\nexport default function Home() {\r\n  return (\r\n    <div>\r\n      <NavBar></NavBar> \r\n    <main>\r\n    <h1 className=\"text-green\">Frutiger Aero</h1>\r\n    </main>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC,8IAAM;;;;;0BACT,8OAAC;0BACD,cAAA,8OAAC;oBAAG,WAAU;8BAAa;;;;;;;;;;;;;;;;;AAI/B","debugId":null}}]
+}
