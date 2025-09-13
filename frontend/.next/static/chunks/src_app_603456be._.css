@@ -1,0 +1,36 @@
+/* [project]/src/app/components/NavBar.module.css [app-client] (css) */
+.NavBar-module__kk8kxq__NavBar {
+  background-color: #86c3e9;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(4, 42, 63, .1);
+}
+
+.NavBar-module__kk8kxq__logo img {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+
+.NavBar-module__kk8kxq__link {
+  color: #00f;
+}
+
+.NavBar-module__kk8kxq__links {
+  gap: 20px;
+  margin-right: 40px;
+  display: flex;
+}
+
+.NavBar-module__kk8kxq__contacto {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+/* [project]/src/app/admin/page.css [app-client] (css) */
+
+
+/*# sourceMappingURL=src_app_603456be._.css.map*/
