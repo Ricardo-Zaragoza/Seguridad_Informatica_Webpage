@@ -11,7 +11,7 @@ router.post('/register', async (req,res) => {
 
 
     if (password !=confirmpassword){
-        return res.status(400).json({mensaje:'El correo ya está registrado'});
+        return res.status(400).json({mensaje:'Las contraseñas no coinciden'});
     }
 
     const existinguser = await user.findOne({ email });
@@ -31,9 +31,9 @@ router.post('/register', async (req,res) => {
 
     try{
         await newuser.save();
-        res.status(201).json({mensaje:'El correo ya está registrado'});
+        res.status(201).json({mensaje:'El usuario creado correctamente'});
     } catch(err){
-        res.status(400).json({mensaje:'El correo ya está registrado'});
+        res.status(400).json({mensaje:'Error al registrar'});
     }
 
 });
