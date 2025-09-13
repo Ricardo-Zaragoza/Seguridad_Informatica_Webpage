@@ -17,7 +17,7 @@ export default function UsuarioPage() {
 
   return (
     <div>
-      <h1>Página de Usuario</h1>
+      <h1>Página de admin</h1>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import express from 'express'; 
 import mongoose from 'mongoose';
 import registerRouter from './routes/register.mjs';
+import loginRouter  from './routes/login.mjs';
 import dotenv from 'dotenv';
-import cors from 'cors';  // Importa cors
+import cors from 'cors';
 
 dotenv.config();
 const app = express();
@@ -14,17 +15,8 @@ app.use(cors({
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
 app.use(express.json());
 app.use('/api', registerRouter);
-app.get('/api/ejemplo', (req, res) => {
-    const data = {
-        mensaje: "Hola, este es un JSON de ejemplo",
-        fecha: new Date(),
-        usuario: {
-            nombre: "Alan",
-            rol: "admin"
-        }
-    };
-    res.json(data); // Express automáticamente convierte el objeto a JSON
-});
+app.use('/api', loginRouter);
+// Conexión a MongoDB
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     app.listen(5000, () => {
