@@ -14,7 +14,7 @@ export default function SignUp(){
           className="login-input"
         />
         <input 
-          type="text" 
+          type="email" 
           name="email" 
           placeholder="email@gmail.com" 
           required 
@@ -28,7 +28,7 @@ export default function SignUp(){
           className="login-input"
         />
         <input
-            type = "confirm_password"
+            type = "password"
             name = "confirm password"
             placeholder="confirm password"
             required
