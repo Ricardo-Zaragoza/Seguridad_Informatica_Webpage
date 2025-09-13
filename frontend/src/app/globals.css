@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgba(10, 10, 10, 0.8);
     --foreground: #ededed;
   }
 }
@@ -38,4 +38,93 @@ h1 {
 
 .text-green:hover{
   color: #9ceff2;
+}
+
+.texto-bienvenida{
+   font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+
+.texto-bienvenida{
+  color: #9fe11d;
+}
+
+.texto-bienvenida:hover{
+  color: #9ceff2;
+}
+
+main {
+  background: rgba(248, 231, 135, 0.3); 
+  border-radius: 15px;
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(145, 220, 123, 0.947);
+  max-width: 1600px;
+  width: 100%;
+  text-align: center; 
+}
+
+main:hover {
+  background: rgba(215, 255, 214, 0.942);
+}
+
+h1, .texto-bienvenida {
+  transition: all 0.3s ease; 
+}
+
+main:hover h1 {
+  background: linear-gradient(45deg, #a0d1ef, #00d1d1);
+  background-clip: text;
+  color: transparent;
+}
+
+main:hover .texto-bienvenida {
+  background: linear-gradient(45deg, #a0d1ef, #00d1d1);
+  background-clip: text;
+  color: transparent;
+}
+
+
+footer {
+  background-color: #009eff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
 }
